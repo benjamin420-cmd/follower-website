@@ -75,6 +75,11 @@ body {
 .featured-title-container > p {
   margin-top: 10px;
   line-height: 20px;
+  font-size: 25px;
+  line-height: 30px;
+}
+.featured-title-container h1{
+    font-size: 50px;
 }
 .featured-title-container {
   display: flex;
@@ -108,7 +113,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 50% 50% 0 0;
 }
 .first-image img,
@@ -134,12 +138,21 @@ body {
   height: 1050px;
   margin: 0 auto;
   margin-top: 140px;
+  margin-bottom: 150px;
 }
 .instagrom-text-content {
-  height: 132px;
+  height: 200px;
   width: 50%;
   margin: 0 auto;
   text-align: center;
+}
+.instagram-section-container h1{
+font-size: 50px;
+margin-bottom: 10px;
+}
+
+.instagram-section-container p{
+    font-size: 22px;
 }
 .first-insta-image {
   width: 100%;
@@ -170,6 +183,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
 }
 .deals-content p {
   margin-bottom: 30px;
@@ -207,17 +221,20 @@ span {
 
 /* support and delivery section */
 .supportanddelivery-container {
-  width: 1260px;
-  height: 320px;
+  width: 1300px;
+  height: 350px;
   margin: 0 auto;
-  margin-top: 140px;
-
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 28px;
-  border-radius: 8px;
+  border-radius: 10px;
   background: rgba(39, 39, 39, 0.05);
+}
+.supportanddelivery-container{
+    font-size: 20px;
+    
 }
 .supportanddelivery-container .imageandtext {
   width: 25%;
@@ -288,7 +305,6 @@ main .hotdeal .text-img-container .textcontainer button {
     border-radius: 50px;
     margin-top: 50px;
 }
-
 
 /* footer section start */
 
